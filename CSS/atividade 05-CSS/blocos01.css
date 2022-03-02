@@ -1,0 +1,34 @@
+.body{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+.item{
+    display: flex;
+      flex-wrap: wrap;
+      height: 26vh;
+      align-items: center;
+}
+
+.blocos{
+    width: 50px;
+    height: 150px;
+    border: 5px solid red;
+    box-shadow: -10px 10px 0px 1px red;
+    border-radius: 20px;
+    flex-grow: 2;
+    margin: 25px;
+    
+    }
+
+    #L1-5, #L2-1, #L2-2, #L3-3 ,#L1-5, #L3-4{
+        flex-grow: 5;
+    }
+
+    

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Karla:wght@700&display=swap');
+
+*{
+    font-family: 'Karla', sans-serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0;
+}
+main{
+    
+    display:flex;
+    align-items: center;    
+    min-height: 100vh;
+    
+
+}
+
+section{
+    width: 204vh;
+    display:flex;
+   justify-content: center;
+   
+}
+.leiaut{
+    
+    background-color:#ffffff;
+    height: 600px;
+    width: 800px;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius:15px 15px 15px 15px;
+    display: grid;
+}
+
+.leiaut{
+    grid-template-rows: 40% 1fr;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'b1 b1'
+    'b2 b3';
+}
+
+#b1{
+    background: rgb(255, 255, 255);
+    grid-area: b1;
+    padding: 25px 0 0 50px;
+    border-radius:15px 15px 0 0;
+    
+}
+#b2{
+    background: hsl(179, 61%, 37%);
+    grid-area:b2;
+    display: inline-block;
+    text-align: center;
+    border-radius:0 0 0 15px;
+    color: white;
+}
+#b3{
+    background: hsl(179, 62%, 43%);
+    grid-area: b3;
+    border-radius:0 0 15px 0;
+    color: white;
+    display: inline-block;
+    text-align: left;
+}
+#botao{
+    background: hsl(71, 73%, 54%);
+    height: 50px;
+    width: 300px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px 1px black;
+    font-size: 25px;
+    cursor: pointer;
+}
+#botao:hover {
+    background: hsl(71, 95%, 60%);
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    color: gray;
+    
+}
+h1{
+    color:hsl(179, 61%, 37%);
+}
+#p1{
+    color: hsl(71, 73%, 54%);
+    font-size:19px;
+}
+#p2, #p3{
+    color: hsl(210, 1%, 64%);
+    margin-right: 30px;
+    font-size:13.6px;
+}
+#b2 h2{
+    font-size: 30px;
+}
+#b2 .sub-bloco{
+    margin-top:20px;
+}
+#b3 .sub-bloco{
+    
+    margin:30px 0 0 30px;
+    line-height: 20px;
+}
+#preco{
+    font-size:40px;    
+}
+#preco2{
+    font-size: 20px;
+    margin-left: 30px;
+    color: hsl(172, 27%, 79%);
+
+}
+
+
+.preco{
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+@media (max-width: 375px) {
+    main{
+        margin: 0;
+    }
+    
+    .leiaut{
+        min-height:960px;
+        width: 375px;
+        grid-template-rows: 240px 360px 360px;
+        grid-template-columns:1fr;
+        grid-template-areas:
+        'b1'
+        'b2'
+        'b3';
+    }
+    #b2{
+        border-radius: 0;
+    }
+    #b3{
+        border-radius: 0 0 15px 15px;
+    }
+}

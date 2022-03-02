@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 06</title>
+
+
+    <link rel="stylesheet" href="estilo3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body>
+        <main>    
+            <h1>Formulário de cadastro</h1>
+            <p>Preencha todos os campos corretamente</p>
+            <form action="">
+                <section> 
+                    <div>   
+                    <fieldset>
+                        
+                            <legend>Dados Pessoais</legend>
+                                <label for="nome">Nome:</label>
+                                <input type="text" id="nome" placeholder="Digite seu nome..." required>
+
+                                <label for="sobrenome">Sobrenome:</label>
+                                <input type="text" id="sobrenome" placeholder="Digite seu sobrenome..." required><br><br>
+                                
+                                <label for="cpf">CPF:</label>
+                                <input type="text" minlength="11" maxlength="11" id="cpf" placeholder="Apenas Números..." required><br><br>
+
+                                <label for="sexo">Sexo:</label>
+                                <select id="sexo" required>
+                                    <option value="" disabled selected>Selecione...</option>
+                                    <option value="M">Masculino</option>
+                                    <option value="F">Feminimo</option>
+                                    <option value="NB">Não Binário</option>
+                                    <option value="O">Outros</option>
+                                </select><br><br>
+
+                                <label for="nasc">Data de Nascimento:</label>
+                                <input type="date" id="nasc" required> 
+                                             
+                    </fieldset><br>
+                    </div>
+                </section>
+                <section> 
+                    <div>   
+                    <fieldset>
+                        <legend>Cadastro de Conta</legend>
+
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" placeholder="@gmail.com" required><br><br>
+
+                            <label for="user">Usuário:</label>
+                            <input type="text" id="user" placeholder="Digite o nome de usuário..." required><br><br>
+
+                            <label for="senha">Senha:</label>
+                            <input type="password" class="senha" id="senha1" placeholder="Digite uma senha..." required><br><br>
+                            <label for="senha2">Confirme a senha:</label>
+                            <input type="password" class="senha" id="senha2" placeholder="Digite a senha novamente..." required><br><br>
+
+                            <input type="checkbox" id="ck-termos" required>
+                            <label for="ck-termos">Aceito todos os termos.</label><br>
+                            <input type="checkbox" id="ck-att">
+                            <label for="ck-att">Receber atualizações por e-mail.</label><br><br>
+
+                            <button type="submit">Enviar</button>
+                            <button type="reset">Resetar Formulário</button>
+                    </fieldset>
+                </div>
+                </section>
+
+                    
+
+
+            </form>
+        </main>    
+</body>
+<footer> 
+    <h4>Obrigado e volte sempre!</h4>
+    
+    
+</html>

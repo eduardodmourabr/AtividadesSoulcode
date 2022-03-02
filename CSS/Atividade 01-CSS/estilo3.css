@@ -1,0 +1,45 @@
+*{    
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    font-weight: 900;
+}
+
+h1{
+    color: coral;
+    font-weight: 900; /* bordas das letras */
+    font-size: 60px; /* Tamanho da fote */
+}
+
+h4{
+    color: coral;
+    font-size: 30px
+}
+
+legend{
+    color: coral;
+    font-size: 30px;
+    
+}
+
+p{
+    font-size: 24px;
+}
+
+label{
+    font-size: 20px;
+}
+
+input[required]{  /* Indica uma tipo específico */ 
+    border: 2px solid red;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+
+
+div{
+    text-align: center;
+    width: 600px;
+}
+
+

@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.gra{
+    border: 1px solid black;
+    max-width:100%;
+    height: 200px;
+}
+.gif{
+    border: 1px solid black;
+    max-width:100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.titulo{
+    border: 5px solid white;
+    max-width:100%;
+    padding-top: 0;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+#div01{
+    background: linear-gradient(to right, yellow,green, red,blue, cadetblue);
+}
+#div02{
+    background: linear-gradient(45deg, red, blue, cadetblue, yellow,rgb(248, 0, 248),rgb(14, 47, 27));
+}
+#div03{
+    background: linear-gradient(125deg, red, blue, rgb(9, 134, 19));
+}
+#div04{
+    background: linear-gradient(to left, red, blue, rgb(255, 0, 200));
+}
+#div05{
+    background: linear-gradient(to left, red 30%, blue, cadetblue 40%);
+}
+#div05{
+    background: linear-gradient(to left, red 30%, blue,yellow,black, cadetblue 40%);
+}
+#div06{
+    background: radial-gradient( red, green,yellow, blue, rgb(255, 0, 200));
+}
+#div07{
+    background: radial-gradient(at top, rgb(0, 0, 0), rgb(168, 93, 253),rgb(255, 0, 191), blue, rgb(0, 0, 0));
+}
+#div08{
+    background: linear-gradient(to left, red 50%, blue 50%);
+}
+#div09{
+    background-image: url(correndo.gif);    
+}
+#div10{
+    background-image: url(nasa.gif);    
+}
+#div11{
+    background-image: url(minhoca.gif);    
+}
+#div12{
+    background-image: url(comemorando.gif);    
+}
+#div13{
+    background-image: url(comemorando2.gif);    
+}
+#div14{
+    background-image: url(carreta.gif);    
+}
+#div15{
+    background-image: url(simba.gif);    
+}
+#div16{
+    background-image: url(fogo.gif);    
+}

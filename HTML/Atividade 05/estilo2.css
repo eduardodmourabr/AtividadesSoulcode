@@ -1,0 +1,61 @@
+
+
+        p{
+            font-family: 'Pacifico', cursive;
+            font-style: italic;  
+            font-weight: 800; /* bordas das letras */
+            color: blueviolet;
+            text-transform: lowercase; /* Maiusculo, minusculo, editar primeira letra, etc... */
+            text-indent: 40px; /* espacamento (espaço do parágrafo) */
+            line-height: 30px; /* Espaçamento entre linhas */
+            letter-spacing: 2px; /* Espaço entre os caracteres (Aceita valores negativos) */
+            word-spacing: 1px; /* Espaço entre as palavras */
+            word-wrap: break-word;
+            border: 1px solid black; /* Bodarda nos parágrafos */
+            white-space: pre-wrap; /* Espaço para cada parágraco */
+            
+        }
+
+h1{
+    font-family: 'Pacifico', cursive; color: blue;
+    text-align: center;
+}
+h5{
+    font-family: 'Pacifico', cursive; color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(187, 25, 25);
+
+}
+
+input[type="text"][required]{  /* Especificar o tipo de input */
+color: yellow;
+
+}
+
+h2{
+    font-family: 'Pacifico', cursive;
+}
+
+h3{
+    font-family: 'Pacifico', cursive;
+}
+
+h4{
+    font-family: 'Pacifico', cursive;
+}
+
+small{
+    font-family: 'Pacifico', cursive;
+}
+
+ul {
+    font-family: 'Pacifico', cursive;
+}
+
+a{
+    font-family: 'Pacifico', cursive;
+}
+
+
+

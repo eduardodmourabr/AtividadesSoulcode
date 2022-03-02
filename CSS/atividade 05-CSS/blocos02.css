@@ -1,0 +1,39 @@
+.body{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    height: 35vh;
+    align-items: center;
+    
+}
+
+.blocos{
+    width: 50px;
+    height: 100px;
+    background: yellow;
+    flex-grow: 1;
+    margin: 10px; 
+    
+    
+    }
+.paragrafo{
+    text-align: center;
+    color: white;
+    font-family: align;
+    font-size: 50px;
+    
+}
+
+
+   
+    
